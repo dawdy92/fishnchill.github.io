@@ -490,6 +490,11 @@ progress {
   display: none !important;
 }
 
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
