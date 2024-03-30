@@ -11118,7 +11118,9 @@ body {
 .about-section p {
   margin-bottom: 5rem;
 }
-
+.adventures-section {
+  padding: 10rem 0;
+}
 .projects-section {
   padding: 10rem 0;
 }
