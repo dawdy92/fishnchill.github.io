@@ -6827,6 +6827,10 @@ textarea.form-control-lg {
   background-color: RGBA(255, 255, 255, var(--bs-bg-opacity, 1)) !important;
 }
 
+.text-maintext {position: relative;}
+.text-maintext > img, .overlay-text {position: absolute;}
+.overlay-text {padding: 150px 50px;}
+
 .link-primary {
   color: #64a19d !important;
 }
