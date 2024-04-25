@@ -650,6 +650,8 @@ progress {
   margin-left: auto;
 }
 
+
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -11075,7 +11077,19 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/sailboat/bg-boat_island.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.submasthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/sailboat/bg-boat_island.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11128,7 +11142,7 @@ body {
   padding: 10rem 0;
 }
 .projects-section {
-  padding: 3 rem 0;
+  padding: 5 rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11151,7 +11165,15 @@ body {
 
 .signup-section {
   padding: 9rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("assets/img/bg-signup.JPG");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.booknow-section {
+  padding: 9rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/sailboat/bg-booknow.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11208,4 +11230,8 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.jumbotron-header {
+    
 }
