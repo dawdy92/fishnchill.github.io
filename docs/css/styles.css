@@ -11142,7 +11142,9 @@ body {
   padding: 10rem 0;
 }
 .projects-section {
-  padding: 5 rem 0;
+padding: 5rem 0;
+
+
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11234,4 +11236,8 @@ body {
 
 .jumbotron-header {
     
+}
+
+.page-section {
+    padding: 8rem 0;
 }
