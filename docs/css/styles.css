@@ -2854,9 +2854,8 @@ textarea.form-control-lg {
   opacity: var(--bs-btn-disabled-opacity);
 }
 
-.btn-teal {
+.btn-primary {
   --bs-btn-color: #fff;
-    
   --bs-btn-bg: #64a19d;
   --bs-btn-border-color: #64a19d;
   --bs-btn-hover-color: #fff;
