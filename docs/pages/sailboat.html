@@ -142,7 +142,7 @@
         </div>
     </section>
 
-    <script src="https://cdn-tailwindcss.vercel.app/"></script>
+<!--    <script src="https://cdn-tailwindcss.vercel.app/"></script>-->
 
     <!-- Contact me form-->
     <section class="page-section" id="contact">
@@ -157,64 +157,38 @@
             <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                 <div class="col-lg-6">
                     <div class="m-7">
+                        
+                        
+                        
                         <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="needs-validation" novalidate>
                             <input type="hidden" name="access_key" value="eb6abd78-249a-4e2e-8681-633e548693fa" />
                             <input type="hidden" name="subject" value="New Sailing Booking Form" />
                             <input type="hidden" name="from_name" value="Red Sea Sailing" />
+                             <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-textarea mb-4" id="message" name="message" placeholder="Your message"></textarea>
+      </div>
+    </div>
+    <button class="btn btn-primary w-100" type="submit">Send Message</button>
 
-                            <div class="flex mb-6 space-x-4">
-                                <div class="w-full md:w-1/2">
-                                    <label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">First Name</label>
-                                    <input type="text" name="name" id="first_name" placeholder="John" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-                                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                                        Please provide your first name.
-                                    </div>
-                                </div>
-                                <div class="w-full md:w-1/2">
-                                    <label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Last Name</label>
-                                    <input type="text" name="last_name" id="lname" placeholder="Doe" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-                                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                                        Please provide your last name.
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="flex mb-6 space-x-4">
-                                <div class="w-full md:w-1/2">
-                                    <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
-                                    <input type="email" name="email" id="email" placeholder="Enter email" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-                                    <div class="empty-feedback text-red-400 text-sm mt-1">
-                                        Please provide your email address.
-                                    </div>
-                                    <div class="invalid-feedback text-red-400 text-sm mt-1">
-                                        Please provide a valid email address.
-                                    </div>
-                                </div>
-
-                                <div class="w-full md:w-1/2">
-                                    <label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label>
-                                    <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
-
-                                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                                        Please provide your phone number.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-6">
-                                <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
-
-                                <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" required></textarea>
-                                <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
-                                    Please enter your message.
-                                </div>
-                            </div>
-                            <div class="mb-6">
-                                <button type="submit" class="w-full px-3 py-4 text-white bg-[#64a19d] rounded-md focus:bg-[#558985] focus:outline-none">
-                                    Send Message
-                                </button>
-                            </div>
-                            <p class="text-base text-center text-gray-400" id="result"></p>
                         </form>
+                        
+                        
+
                     </div>
                 </div>
             </div>
@@ -248,8 +222,12 @@
                             <div class="col">
                                 <div class="flex mb-6 space-x-4">
                                     <div class="w-full">
-                                        <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
-                                        <input type="email" name="email" id="email" placeholder="you@website.com" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+             <div class="form-group">
+        <label for="email" class=" text-white  form-label">Email Address</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>                               
+<!--<label for="newsletter" class="block mb-2 text-sm text-white dark:text-gray-400">Email Address</label>-->
+<!--                                        <input type="email" name="email" id="newsletter" placeholder="you@website.com" required class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />-->
                                         <div class="empty-feedback text-red-400 text-sm mt-1">
                                             Please provide your email address.
                                         </div>
@@ -258,8 +236,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="mb-6">
-                                    <button type="submit" class="w-full px-3 py-4 text-white bg-[#64a19d] rounded-md focus:bg-[#558985] focus:outline-none">
+                                <div class="m-4">
+                                    <button type="submit" class="btn btn-primary w-75">
                                         Send Message
                                     </button>
                                 </div>
@@ -382,19 +360,48 @@
 
     </script>
 
+<!--     Google Map-->
 
-    <!-- Google script 1
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyGmHExZmQCJ0J0CggiBiZT7VlqSgYRR8&callback=console.debug&libraries=maps,marker&v=beta">
-    </script>
-     <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      gmp-map {
-        height: 100%;
-      }
-    </style>
+<!--    <div id="map"></div>-->
+
     
-     -->
+<!--     Google script 1-->
+<!--
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyAyGmHExZmQCJ0J0CggiBiZT7VlqSgYRR8", v: "weekly"});</script>
+-->
+    <!--     Google script 1-->
+
+<!--
+<script>
+let map;
+
+async function initMap() {
+  // The location of Uluru
+  const position = { lat: -25.344, lng: 131.031 };
+  // Request needed libraries.
+  //@ts-ignore
+  const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+  // The map, centered at Uluru
+  map = new Map(document.getElementById("map"), {
+    zoom: 4,
+    center: position,
+    mapId: "DEMO_MAP_ID",
+  });
+
+  // The marker, positioned at Uluru
+  const marker = new AdvancedMarkerElement({
+    map: map,
+    position: position,
+    title: "Uluru",
+  });
+}
+
+initMap();
+</script>
+-->
 
 </body>
 
