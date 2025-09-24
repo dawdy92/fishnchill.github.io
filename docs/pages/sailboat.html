@@ -1,351 +1,444 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Fish N Chill</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet" />
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Fish N Chill</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-KZWGBG73");
+        </script>
+        <!-- End Google Tag Manager -->
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KZWGBG73');</script>
-<!-- End Google Tag Manager -->
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <!-- Google analytics tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-59NWNQ27KT"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="../css/styles.css" rel="stylesheet" />
-    <!-- Google analytics tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-59NWNQ27KT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+            gtag("config", "G-59NWNQ27KT");
+        </script>
+    </head>
 
-  gtag('config', 'G-59NWNQ27KT');
-</script>
+    <body id="page-top">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-KZWGBG73"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
-
-
-</head>
-
-
-
-<body id="page-top">
-    
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZWGBG73"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="/">Fish N Chill</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#top">Cost</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#details">Details</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#booknow">Book Now</a></li>
-                </ul>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="/">Fish N Chill</a>
+                <button
+                    class="navbar-toggler navbar-toggler-right"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#top">Cost</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#details">Details</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#booknow">Book Now</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead" id="top">
-        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-            <div class="d-flex justify-content-center">
-                <div class="text-center">
-                    <h1 class=" text-white mx-auto my-0 text-uppercase">Sail & Dive with Dolphins</h1>
-                    <!--      <h2 class="text-white mx-auto mt-2 mb-5">A week full of sun, sailing, free-diving and epic dolphin encounters. Imagine yourself on a sailboat in the middle of the sea, only sharing it with a small group of likely minded people. This can be the magical equation of joy and relaxation.</h2>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead" id="top">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="text-white mx-auto my-0 text-uppercase">Sail & Dive with Dolphins</h1>
+                        <!--      <h2 class="text-white mx-auto mt-2 mb-5">A week full of sun, sailing, free-diving and epic dolphin encounters. Imagine yourself on a sailboat in the middle of the sea, only sharing it with a small group of likely minded people. This can be the magical equation of joy and relaxation.</h2>
                     <div class="et_pb_column et_pb_column_1_2 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
 				-->
 
-                    <ul class="text-white" style="list-style-type:none;">
-                        <li><strong><span style="color: #FFFFFF;"><span style="font-size: 20px;">USD$1190</span></span></strong> <strong>per person | Shared room, shared bathroom</strong></li>
-                        <li><strong><span style="color: #FFFFFF;"><span style="font-size: 20px;">USD$1290</span></span></strong> <strong>per person | Shared room, private bathroom</strong></li>
-                        <li>Duration : 7 days / 6 nights</li>
-                        <li>Dates :</li>
-                        <li>December 24 – 28  2025</li>
-                        <li>December 29 – 2 January 2025/2026</li>
-                       
+                        <ul class="text-white" style="list-style-type: none">
+                            <li>
+                                <strong
+                                    ><span style="color: #ffffff"
+                                        ><span style="font-size: 20px">USD$1190</span></span
+                                    ></strong
+                                >
+                                <strong>per person | Shared room, shared bathroom</strong>
+                            </li>
+                            <li>
+                                <strong
+                                    ><span style="color: #ffffff"
+                                        ><span style="font-size: 20px">USD$1290</span></span
+                                    ></strong
+                                >
+                                <strong>per person | Shared room, private bathroom</strong>
+                            </li>
+                            <li>Duration : 5 days / 4 nights</li>
+                            <li>Dates :</li>
+                            <li>December 24 – 28 2025</li>
+                            <li>December 28 – 2 January 2025/2026</li>
 
- <li><strong><span style="color: #FFFFFF;"><span style="font-size: 20px;"></span></span></strong> Locals can pay in the EGP with 30% off current bank rate at booking time</li>
+                            <li>
+                                <strong
+                                    ><span style="color: #ffffff"><span style="font-size: 20px"></span></span
+                                ></strong>
+                                Egyptian's Price: 25000 EGP  per person | Shared room, shared bathroom
 
-                    </ul>
-                    <a class="btn btn-primary justify-content-center text-white bg-[#64a19d] rounded-md focus:bg-[#558985] focus:outline-none" href="https://buy.stripe.com/9AQ3f9aF01DY3UA000">Book Now</a>
+                                
+                            </li>
+                        </ul>
+                        <a
+                            class="btn btn-primary justify-content-center text-white bg-[#64a19d] rounded-md focus:bg-[#558985] focus:outline-none"
+                            href="https://buy.stripe.com/9AQ3f9aF01DY3UA000"
+                            >Book Now</a
+                        >
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!-- details-->
-    <section class="projects-section bg-light" id="details">
-        <div class="container px-4 px-lg-5">
-            <h2 class="text-black text-center mb-4">Details</h2>
+        <!-- details-->
+        <section class="projects-section bg-light" id="details">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-black text-center mb-4">Details</h2>
 
-            <!-- Featured Project Row-->
-            <!-- Project One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <!-- Featured Project Row-->
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="../assets/img/sailboat/DSCF9940%20(1).jpg" alt="..." />
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-light text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h5 class="mb-0">What’s included?</h5>
 
-                <div class="col-lg-6"><img class="img-fluid" src="../assets/img/sailboat/DSCF9940%20(1).jpg" alt="..." /></div>
-                <div class="col-lg-6">
-                    <div class="bg-light text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h5 class="mb-0">What’s included?</h5>
+                                    <p class="mb-0 text-black-50">
+                                        <span
+                                            >Full-board accommodation including breakfast, lunch, dinner and
+                                            refreshments</span
+                                        >
+                                    </p>
+                                    <p class="mb-0 text-black-50">
+                                        <span>A daily freediving depth and theory session</span>
+                                    </p>
+                                    <p class="mb-4 text-black-50">
+                                        <span>Equipment including: buoy, weights, lanyards</span>
+                                    </p>
 
-                                <p class="mb-0 text-black-50"><span>Full-board accommodation including breakfast, lunch, dinner and refreshments</span></p>
-                                <p class="mb-0 text-black-50"><span>A daily freediving depth and theory session</span></p>
-                                <p class="mb-4 text-black-50"><span>Equipment including: buoy, weights, lanyards</span></p>
-
-                                <h5 class="mb-0">What’s not included?</h5>
-                                <p class="mb-0 text-black-50"><span>Flight tickets and visa</span></p>
-                                <p class="mb-0 text-black-50"><span>Marine park entrance fees (USD $200), for locals (EGP 3000)</span></p>
-                                <p class="mb-0 text-black-50">Captain, skipper, guide and chef gratuities</p>
-                                <p class="mb-0 text-black-50">Personal wetsuit, fins, belt, mask and snorkel (can arrange rentals)</p>
+                                    <h5 class="mb-0">What’s not included?</h5>
+                                    <p class="mb-0 text-black-50"><span>Flight tickets and visa</span></p>
+                                    <p class="mb-0 text-black-50">
+                                        <span>Marine park entrance fees (USD $200), for locals (EGP 3000)</span>
+                                    </p>
+                                    <p class="mb-0 text-black-50">Captain, skipper, guide and chef gratuities</p>
+                                    <p class="mb-0 text-black-50">
+                                        Personal wetsuit, fins, belt, mask and snorkel (can arrange rentals)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="../assets/img/sailboat/DJI_0138-HDR.jpg" alt="..." />
+                    </div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-light text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-black">Where are we going?</h4>
+                                    <p class="mb-4 text-black-50">
+                                        Marsa Allam lies on the southern Egyptian coast of the Red Sea. Many travellers
+                                        are drawn to Marsa Allam because of the amazing combination of clear waters and
+                                        diverse marine life.
+                                    </p>
+                                    <h4 class="text-black">What to expect?</h4>
+                                    <h6 class="text-black">Marine life encounters</h6>
+                                    <p class="mb-2 text-black-50">
+                                        Bottlenose Dolphins, Spinner Dolphins, Whale Sharks, Dugonog, Manta Rays,
+                                        Various Reef Sharks and other diverse species.
+                                    </p>
+                                    <h6 class="text-black">Typical day</h6>
+                                    <p class="mb-0 text-black-50">
+                                        Start your morning with some stretching, watch the sunrise. Get suited and start
+                                        your day with a dive across the reef.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Three Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="../assets/img/sailboat/about-boat.JPG" alt="..." />
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-light text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-black">Tell me more about the sailboat</h4>
+                                    <p class="mb-0 text-black-50">
+                                        You will be accommodated on a luxury Beneteau 51-foot sailing yacht, offering
+                                        spacious 2-person cabins with private or shared bathrooms that include a shower.
+                                        Further photos of the ship and its cabins can be found
+                                        <a href="../assets/PDF/Sailboat.pdf" download="Sailboat-photos"
+                                            ><span style="color: #000000"
+                                                ><span style="font-size: 15px">here</span></span
+                                            ></a
+                                        >.
+                                    </p>
+                                </div>
+                                <pre class="mb-0 text-black-50"></pre>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="../assets/img/sailboat/DJI_0138-HDR.jpg" alt="..." /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-light text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-black">Where are we going?</h4>
-                                <p class="mb-4 text-black-50">
-                                    Marsa Allam lies on the southern Egyptian coast of the Red Sea.
-                                    Many travellers are drawn to Marsa Allam because of the amazing combination of clear waters and diverse marine life.
-                                </p>
-                                <h4 class="text-black">What to expect?</h4>
-                                <h6 class="text-black">Marine life encounters</h6>
-                                <p class="mb-2 text-black-50">
-                                    Bottlenose Dolphins, Spinner Dolphins, Whale Sharks, Dugonog, Manta Rays, Various Reef Sharks and other diverse species.
-                                </p>
-                                <h6 class="text-black">Typical day</h6>
-                                <p class="mb-0 text-black-50">
-                                    Start your morning with some stretching, watch the sunrise.
-                                    Get suited and start your day with a dive across the reef.
+        </section>
 
+        <!--    <script src="https://cdn-tailwindcss.vercel.app/"></script>-->
 
-                                </p>
-                            </div>
+        <!-- Contact me form-->
+        <section class="page-section" id="booknow">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Book Now!</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">
+                            Ready to join us? Send us a messages and we will get back to you as soon as possible!
+                        </p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <div class="m-7">
+                            <form
+                                action="https://api.web3forms.com/submit"
+                                method="POST"
+                                id="contactForm"
+                                class="needs-validation"
+                                novalidate>
+                                <input type="hidden" name="access_key" value="eb6abd78-249a-4e2e-8681-633e548693fa" />
+                                <input type="hidden" name="subject" value="New Sailing Booking Form" />
+                                <input type="hidden" name="from_name" value="Red Sea Sailing" />
+                                <div class="form-group-container">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input
+                                            id="name"
+                                            name="name"
+                                            class="form-input"
+                                            placeholder="Your name"
+                                            type="text" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input
+                                            id="email"
+                                            name="email"
+                                            class="form-input"
+                                            placeholder="Your email"
+                                            type="email" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input
+                                            id="phone"
+                                            name="phone"
+                                            class="form-input"
+                                            placeholder="+1 (234) 56789"
+                                            type="text" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea
+                                            class="form-textarea mb-4"
+                                            id="message"
+                                            name="message"
+                                            placeholder="Your message"></textarea>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100" type="submit">Send Message</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Project Three Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="../assets/img/sailboat/about-boat.JPG" alt="..." /></div>
-                <div class="col-lg-6">
-                    <div class="bg-light text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-black">Tell me more about the sailboat</h4>
-                                <p class="mb-0 text-black-50">
-                                    You will be accommodated on a luxury Beneteau 51-foot sailing yacht, offering spacious 2-person cabins with private or shared bathrooms that include a shower. Further photos of the ship and its cabins can be found
-                                    <a href="../assets/PDF/Sailboat.pdf" download="Sailboat-photos"><span style="color: #000000;"><span style="font-size: 15px;">here</span></span></a>.
-                                </p>
-
-                            </div>
-                            <pre class="mb-0 text-black-50"></pre>
-                        </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-<!--    <script src="https://cdn-tailwindcss.vercel.app/"></script>-->
-
-    <!-- Contact me form-->
-    <section class="page-section" id="booknow">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 col-xl-6 text-center">
-                    <h2 class="mt-0">Book Now!</h2>
-                    <hr class="divider" />
-                    <p class="text-muted mb-5">Ready to join us? Send us a messages and we will get back to you as soon as possible!</p>
-                </div>
-            </div>
-            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                <div class="col-lg-6">
-                    <div class="m-7">
-                        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="needs-validation" novalidate>
-                            <input type="hidden" name="access_key" value="eb6abd78-249a-4e2e-8681-633e548693fa" />
-                            <input type="hidden" name="subject" value="New Sailing Booking Form" />
-                            <input type="hidden" name="from_name" value="Red Sea Sailing" />
-                             <div class="form-group-container">
-      <div class="form-group">
-        <label for="name" class="form-label">Name</label>
-        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
-      </div>
-      <div class="form-group">
-        <label for="email" class="form-label">Email</label>
-        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
-      </div>
-      <div class="form-group">
-        <label for="phone" class="form-label">Phone</label>
-        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
-      </div>
-      <div class="form-group">
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-textarea mb-4" id="message" name="message" placeholder="Your message"></textarea>
-      </div>
-    </div>
-    <button class="btn btn-primary w-100" type="submit">Send Message</button>
-
-
-                        </form>
-                        
-                        
-
-                    </div>
-                </div>
-            </div>
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                    <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                </div>
-            </div>
-        </div>
-        <!-- GIS  <div id="map"><gmp-map center="24.285795211791992,35.37908172607422" zoom="14" map-id="DEMO_MAP_ID">
+            <!-- GIS  <div id="map"><gmp-map center="24.285795211791992,35.37908172607422" zoom="14" map-id="DEMO_MAP_ID">
                                     <gmp-advanced-marker position="24.285795211791992,35.37908172607422" title="My location"></gmp-advanced-marker>
                                     </gmp-map></div>
         
-        -->
-    </section>
+        --></section>
 
-    <!-- Signup 2-->
-    <section class="booknow-section" id="signup">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-10 col-lg-8 mx-auto text-center">
-                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">Notify me about future trips!</h2>
-                    <!-- Web3forms emailform@fishnchill.com update access key-->
-                    <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="needs-validation" novalidate>
-                        <input type="hidden" name="subject" value="New Subscriber" />
-                        <input type="hidden" name="from_name" value="Subscribe" />
-                        <input type="hidden" name="access_key" value="fef067e4-60fd-4ee5-a386-4ba42a40c0b6">
-                        <!-- Email address input-->
-                        <div class="row input-group-newsletter">
-                            <div class="col">
-                                <div class="flex mb-6 space-x-4">
-                                    <div class="w-full">
-                                        <div class="form-group">
-                                            <label for="email" class=" text-white  form-label">Email Address</label>
-                                            <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
-                                        </div>
+        <!-- Signup 2-->
+        <section class="booknow-section" id="signup">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Notify me about future trips!</h2>
+                        <!-- Web3forms emailform@fishnchill.com update access key-->
+                        <form
+                            action="https://api.web3forms.com/submit"
+                            method="POST"
+                            id="contactForm"
+                            class="needs-validation"
+                            novalidate>
+                            <input type="hidden" name="subject" value="New Subscriber" />
+                            <input type="hidden" name="from_name" value="Subscribe" />
+                            <input type="hidden" name="access_key" value="fef067e4-60fd-4ee5-a386-4ba42a40c0b6" />
+                            <!-- Email address input-->
+                            <div class="row input-group-newsletter">
+                                <div class="col">
+                                    <div class="flex mb-6 space-x-4">
+                                        <div class="w-full">
+                                            <div class="form-group">
+                                                <label for="email" class="text-white form-label">Email Address</label>
+                                                <input
+                                                    id="email"
+                                                    name="email"
+                                                    class="form-input"
+                                                    placeholder="Your email"
+                                                    type="email" />
+                                            </div>
 
-                                        <div class="empty-feedback text-red-400 text-sm mt-1">
-                                            Please provide your email address.
-                                        </div>
-                                        <div class="invalid-feedback text-red-400 text-sm mt-1">
-                                            Please provide a valid email address.
+                                            <div class="empty-feedback text-red-400 text-sm mt-1">
+                                                Please provide your email address.
+                                            </div>
+                                            <div class="invalid-feedback text-red-400 text-sm mt-1">
+                                                Please provide a valid email address.
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="m-4">
+                                        <button type="submit" class="btn btn-primary w-75">Send Message</button>
+                                    </div>
+                                    <p class="text-base text-center text-gray-400" id="result"></p>
                                 </div>
-                                <div class="m-4">
-                                    <button type="submit" class="btn btn-primary w-75">
-                                        Send Message
-                                    </button>
+                                <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">
+                                    An email is required.
                                 </div>
-                                <p class="text-base text-center text-gray-400" id="result"></p>
-
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">
+                                    Email is not valid.
+                                </div>
+                                <!-- Submit success message-->
+                                <!---->
+                                <!-- This is what your users will see when the form-->
+                                <!-- has successfully submitted-->
+                                <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3 mt-2 text-white">
+                                        <div class="fw-bolder">Form submission successful!</div>
+                                        To activate this form, sign up at
+                                        <br />
+                                        <a href="https://startbootstrap.com/solution/contact-forms"
+                                            >https://startbootstrap.com/solution/contact-forms</a
+                                        >
+                                    </div>
+                                </div>
+                                <!-- Submit error message-->
+                                <!---->
+                                <!-- This is what your users will see when there is-->
+                                <!-- an error submitting the form-->
+                                <div class="d-none" id="submitErrorMessage">
+                                    <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage">
-                                <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
-                            </div>
-                        </div>
-                    </form>
-
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer-->
-    <footer class="footer bg-black small text-center text-white-50">
-        <div class="container px-4 px-lg-5">Copyright &copy; Fish N Chill 2024</div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <!-- Custom Form JS-->
-    <script>
-        (function() {
-            "use strict";
-            /*
-             * Form Validation
-             */
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50">
+            <div class="container px-4 px-lg-5">Copyright &copy; Fish N Chill 2024</div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!-- Custom Form JS-->
+        <script>
+            (function () {
+                "use strict";
+                /*
+                 * Form Validation
+                 */
 
-            // Fetch all the forms we want to apply custom validation styles to
-            const forms = document.querySelectorAll(".needs-validation");
-            const result = document.getElementById("result");
-            // Loop over them and prevent submission
-            Array.prototype.slice.call(forms).forEach(function(form) {
-                form.addEventListener(
-                    "submit",
-                    function(event) {
-                        if (!form.checkValidity()) {
-                            event.preventDefault();
-                            event.stopPropagation();
+                // Fetch all the forms we want to apply custom validation styles to
+                const forms = document.querySelectorAll(".needs-validation");
+                const result = document.getElementById("result");
+                // Loop over them and prevent submission
+                Array.prototype.slice.call(forms).forEach(function (form) {
+                    form.addEventListener(
+                        "submit",
+                        function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault();
+                                event.stopPropagation();
 
-                            form.querySelectorAll(":invalid")[0].focus();
-                        } else {
-                            /*
-                             * Form Submission using fetch()
-                             */
+                                form.querySelectorAll(":invalid")[0].focus();
+                            } else {
+                                /*
+                                 * Form Submission using fetch()
+                                 */
 
-                            const formData = new FormData(form);
-                            event.preventDefault();
-                            event.stopPropagation();
-                            const object = {};
-                            formData.forEach((value, key) => {
-                                object[key] = value;
-                            });
-                            const json = JSON.stringify(object);
-                            result.innerHTML = "Please wait...";
+                                const formData = new FormData(form);
+                                event.preventDefault();
+                                event.stopPropagation();
+                                const object = {};
+                                formData.forEach((value, key) => {
+                                    object[key] = value;
+                                });
+                                const json = JSON.stringify(object);
+                                result.innerHTML = "Please wait...";
 
-                            fetch("https://api.web3forms.com/submit", {
+                                fetch("https://api.web3forms.com/submit", {
                                     method: "POST",
                                     headers: {
                                         "Content-Type": "application/json",
@@ -353,53 +446,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     },
                                     body: json
                                 })
-                                .then(async (response) => {
-                                    let json = await response.json();
-                                    if (response.status == 200) {
-                                        result.innerHTML = json.message;
-                                        result.classList.remove("text-gray-500");
-                                        result.classList.add("text-green-500");
-                                    } else {
-                                        console.log(response);
-                                        result.innerHTML = json.message;
-                                        result.classList.remove("text-gray-500");
-                                        result.classList.add("text-red-500");
-                                    }
-                                })
-                                .catch((error) => {
-                                    console.log(error);
-                                    result.innerHTML = "Something went wrong!";
-                                })
-                                .then(function() {
-                                    form.reset();
-                                    form.classList.remove("was-validated");
-                                    setTimeout(() => {
-                                        result.style.display = "none";
-                                    }, 5000);
-                                });
-                        }
-                        form.classList.add("was-validated");
-                    },
-                    false
-                );
-            });
-        })();
+                                    .then(async (response) => {
+                                        let json = await response.json();
+                                        if (response.status == 200) {
+                                            result.innerHTML = json.message;
+                                            result.classList.remove("text-gray-500");
+                                            result.classList.add("text-green-500");
+                                        } else {
+                                            console.log(response);
+                                            result.innerHTML = json.message;
+                                            result.classList.remove("text-gray-500");
+                                            result.classList.add("text-red-500");
+                                        }
+                                    })
+                                    .catch((error) => {
+                                        console.log(error);
+                                        result.innerHTML = "Something went wrong!";
+                                    })
+                                    .then(function () {
+                                        form.reset();
+                                        form.classList.remove("was-validated");
+                                        setTimeout(() => {
+                                            result.style.display = "none";
+                                        }, 5000);
+                                    });
+                            }
+                            form.classList.add("was-validated");
+                        },
+                        false
+                    );
+                });
+            })();
+        </script>
 
-    </script>
+        <!--     Google Map-->
 
-<!--     Google Map-->
+        <!--    <div id="map"></div>-->
 
-<!--    <div id="map"></div>-->
-
-    
-<!--     Google script 1-->
-<!--
+        <!--     Google script 1-->
+        <!--
     <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
         ({key: "AIzaSyAyGmHExZmQCJ0J0CggiBiZT7VlqSgYRR8", v: "weekly"});</script>
 -->
-    <!--     Google script 1-->
+        <!--     Google script 1-->
 
-<!--
+        <!--
 <script>
 let map;
 
@@ -429,7 +520,5 @@ async function initMap() {
 initMap();
 </script>
 -->
-
-</body>
-
+    </body>
 </html>
